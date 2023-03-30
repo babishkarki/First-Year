@@ -1,6 +1,6 @@
 var result = document.getElementById('result');
 
-function appendToResult(value){
+function calculation(value){
     result.value = result.value + value;
 }
 
