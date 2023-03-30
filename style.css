@@ -1,4 +1,4 @@
-.background{
+.background {
     display: block;
     width: fit-content;
     margin: 50px auto 0 auto;
@@ -8,12 +8,16 @@
     border-radius: 20px;
 }
 
-.result input{
+.background1 {
+    display: none;
+}
+
+.result input {
     width: 92%;
     height: 50px;
     margin: 20px 0;
     text-align: right;
-    font-size: 26.5px ;
+    font-size: 26.5px;
 }
 
 .number button {
@@ -23,8 +27,51 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width: 390px){
-    .number button{
-        margin: 5px 8px;
+@media only screen and (max-width: 395px) {
+    .number button {
+        margin: 5px 5px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .number button {
+        margin: 5px 5px;
+        font-size: 30px;
+    }
+
+    .background {
+        display: none;
+    }
+
+    .background1 {
+        display: block;
+        width: fit-content;
+        margin: 50px auto 0 auto;
+        background-color: lightslategray;
+        text-align: center;
+        padding: 20px;
+        border-radius: 20px;
+    }
+}
+
+@media only screen and (max-width: 285px) {
+    .number button {
+        margin: 5px 5px;
+        font-size: 20px;
+        width: 45px;
+    }
+
+    .background {
+        display: none;
+    }
+
+    .background1 {
+        display: block;
+        width: fit-content;
+        margin: 50px auto 0 auto;
+        background-color: lightslategray;
+        text-align: center;
+        padding: 20px;
+        border-radius: 20px;
     }
 }
