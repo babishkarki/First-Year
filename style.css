@@ -21,6 +21,7 @@
 }
 
 .number button {
+    color: black;
     font-size: 40px;
     margin: 5px 10px;
     width: 60px;
@@ -37,20 +38,7 @@
     .number button {
         margin: 5px 5px;
         font-size: 30px;
-    }
-
-    .background {
-        display: none;
-    }
-
-    .background1 {
-        display: block;
-        width: fit-content;
-        margin: 50px auto 0 auto;
-        background-color: lightslategray;
-        text-align: center;
-        padding: 20px;
-        border-radius: 20px;
+        width: 45px;
     }
 }
 
@@ -58,20 +46,6 @@
     .number button {
         margin: 5px 5px;
         font-size: 20px;
-        width: 45px;
-    }
-
-    .background {
-        display: none;
-    }
-
-    .background1 {
-        display: block;
-        width: fit-content;
-        margin: 50px auto 0 auto;
-        background-color: lightslategray;
-        text-align: center;
-        padding: 20px;
-        border-radius: 20px;
+        width:30px;
     }
 }
